@@ -1,0 +1,10 @@
+{
+    "name": "layout-basico",
+    "version": "1.0.0",
+    "devDependencies": {
+        "sass": "^1.89.1"
+    },
+    "scripts": {
+        "sass": "sass styles.scss styles.css --watch"
+    }
+}

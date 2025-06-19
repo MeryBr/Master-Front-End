@@ -1,0 +1,84 @@
+body {
+  background: #ededed;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  padding: 2rem 0;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  max-width: 370px;
+  background: #fff;
+  border: 1.5px solid #cfcfcf;
+  border-radius: 3px;
+  box-shadow: none;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 2rem 1.7rem 1.7rem 1.7rem;
+}
+
+.card-title {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin: 0 0 0.5rem 0;
+}
+
+.card-text {
+  color: #444;
+  font-size: 1.09rem;
+  line-height: 1.5;
+  margin: 0 0 0.7rem 0;
+}
+
+.card-published {
+  font-size: 1rem;
+  margin: 0 0 0.6rem 0;
+}
+
+.published-label {
+  font-weight: bold;
+  color: #222;
+}
+
+.published-date {
+  color: #88b04b;
+  font-weight: 500;
+  margin-left: 0.2em;
+}
+
+.card-action {
+  background: #88b04b;
+  color: #fff;
+  font-size: 1.4rem;
+  width: 100%;
+  padding: 0.7em 0;
+  border: none;
+  border-radius: 3px;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  font-weight: 400;
+  transition: background 0.15s;
+}
+
+.card-action:hover,
+.card-action:focus {
+  background: #6e9337;
+  outline: none;
+}
