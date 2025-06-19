@@ -1,0 +1,55 @@
+$palettes: (
+  blue: #3498db,
+  red: #e74c3c,
+  green: #27ae60,
+  yellow: #f1c40f
+);
+
+
+@each $name, $base in $palettes {
+  $shades: (
+    darken-4: darken($base, 40%),
+    darken-3: darken($base, 30%),
+    darken-2: darken($base, 20%),
+    darken-1: darken($base, 10%),
+    base-color: $base,
+    lighten-1: lighten($base, 10%),
+    lighten-2: lighten($base, 20%),
+    lighten-3: lighten($base, 30%),
+    lighten-4: lighten($base, 40%)
+  );
+  .container-#{$name} {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 1rem auto;
+    max-width: 1000px;
+    justify-content: center;
+  }
+  @each $key, $color in $shades {
+    .#{$name}-#{$key} {
+      background: $color;
+      border: 2px solid rgba(0,0,0,0.09);
+      width: 120px;
+      height: 70px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: sans-serif;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      color: if(lightness($color) > 65, #333, #fff);
+      transition: box-shadow 0.2s;
+    }
+  }
+}
+
+.container-blue,
+.container-red,
+.container-green,
+.container-yellow {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
