@@ -1,6 +1,6 @@
 # 🍋 Master Frontend
 
-This repository contains my learning journey through the **Master Frontend** program by Lemoncode — an intensive, hands-on specialization in frontend development.
+This repository contains my learning journey through the **Master Frontend** program by Lemoncode - an intensive, hands-on specialization in frontend development.
 
 ---
 
@@ -71,4 +71,4 @@ HTML5, CSS3, SASS, JavaScript (ES6/ES7), TypeScript, React, Next.js, Angular, Vu
 
 ### **Personal goal**
 
-To build a solid foundation as a frontend developer, master modern frameworks and tools, and apply everything learned through real projects — growing with every module.
+To build a solid foundation as a frontend developer, master modern frameworks and tools, and apply everything learned through real projects - growing with every module.
