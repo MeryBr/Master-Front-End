@@ -38,9 +38,9 @@ Taught by experienced developers with a practical, real-world approach and an ag
 * Vite
 
 **Module 4 · Frameworks**
-* React — components, hooks, navigation, data access, CSS in JS, Next.js
-* Angular — architecture, services, RxJS
-* Vue.js — Composition API, VueRouter, async setup
+* React - components, hooks, navigation, data access, CSS in JS, Next.js
+* Angular - architecture, services, RxJS
+* Vue.js - Composition API, VueRouter, async setup
 * Svelte, SolidJS, Lit, Astro, D3.js, Web Components
 * Micro Frontends · Accessibility · SOLID principles
 
