@@ -16,19 +16,16 @@ Cada ejercicio está en su propia carpeta. Todos los estilos están escritos en 
 # Módulo 1 - Layout Avanzado
 
 Este repositorio contiene ejercicio Proyecto: *Warner Live*.
-Simulación de una landing page de selección de películas tipo plataforma de streaming.
+Simulación de una landing page de una plataforma de streaming desarrollada con HTML y SCSS.
 
 ## Ejercicio
 
 ### Funcionalidades:
 
-- Top 5 películas más populares del día (con números dinámicos y responsive).
-- Carrusel horizontal de películas recomendadas.
-- Animaciones al hacer hover sobre las tarjetas.
-- Estilos adaptativos para desktop, tablet y mobile.
-- Navegación fija con hover destacado y logo dinámico.
-- Imágenes clicables.
-- Scroll horizontal suave para el carrusel.
-- Diseño 100% responsive con media queries personalizadas.
+- Top 5 películas más populares con números superpuestos y diseño responsive.
+- Carrusel horizontal de títulos recomendados con scroll suave.
+- Hover animado en las tarjetas.
+- Navegación fija con logo y hover destacado.
+- Diseño adaptativo para desktop, tablet y móvil.
 
 ---
